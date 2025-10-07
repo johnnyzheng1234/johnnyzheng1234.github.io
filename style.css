@@ -9,3 +9,7 @@ h1 {
   font-size: 1rem;
   text-decoration: underline;
 }
+
+p {
+  font-style: italic;
+}
