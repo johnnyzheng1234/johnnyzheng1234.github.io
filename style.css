@@ -21,3 +21,13 @@ h1 {
 } */
 
 
+.name{
+color:palevioletred;
+
+}
+
+.question{
+color: blueviolet;
+  border: 5px;
+  border-color: blueviolet;
+}
