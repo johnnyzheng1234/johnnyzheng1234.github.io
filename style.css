@@ -28,6 +28,7 @@ color:palevioletred;
 
 .question{
 color: blueviolet;
-  border: 5px;
+  border-style: dashed;
   border-color: blueviolet;
+  color: rgb(124, 76, 89);
 }
