@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alpaca Adventures</title>
-<link rel="stylesheet" href="more.css"> <!-- added more.css because it wasn't linked-->
+<link rel="stylesheet" href="more.css"> <!-- this CSS file wasn't linked, so no styles or edits were showing. I added the correct name for the stylesheet, because without connecting/inputing the right name, "more.css," the page would be displayed as a blank, unstyled page with no design. -->
 </head>
 <body>
 <div id="sidebar">
 <h2>🦙 Alpaca Adventures</h2>
 <h2> johnny</h2>
 <ul>
-<li><a href="#home">Home</a></li> <!-- added hashtag beofore home -->
+<li><a href="#home">Home</a></li> <!-- the home link wasnt working since it was missing the # symbol. I added the # to make it an anchor link because the # symbol tells the browser to jump to a certain section on the same page.  -->
 <li><a href="#wool">Wool</a></li>
 <li><a href="#herds">Herd Life</a></li>
-<li><a href="#fun">Fun Facts</a></li> <!-- added the ending li tag -->
+<li><a href="#fun">Fun Facts</a></li> <!-- the li was missing a closing tag, which broke the list structure, so I added "</li>" to properly close the tag, without confusing the browser or causing any issues with the layout. -->
 </ul>
 </div>
 <div id="content">
@@ -23,10 +23,9 @@
 <p>Alpacas live in the mountains of Peru and are known for their soft wool and gentle
 personalities. They travel in groups called herds.</p>
 
-<div id="wool" class="section dark"> <!-- added quoateations around wool and section light -->
-<h2>Wonderful Wool<h2>
-Alpaca wool is light, warm, and water-resistant. It's sheared every year to make cozy
-clothing.
+<div id="wool" class="section dark"> <!-- This section was missing quotes around “wool” and “section dark.” This caused the browser to not read the attributes correctly because HTML needs quotes for attribute values. -->
+<h2>Wonderful Wool</h2> <!-- The closing </h2> tag was missing. This caused all the text below to look like a heading because the browser didn’t know where to stop the h2.-->
+<p>Alpaca wool is light, warm, and water-resistant. It's sheared every year to make cozy clothing.</p>    <!--there weren't any p tags around the text, which caused the spacing to look wrong because the browser/code didn't treat it as a paragraph -->
 <div class="wool-box">
 <p>This box demonstrates <strong>absolute positioning</strong>.</p>
  <!-- removed useless p tag-->
