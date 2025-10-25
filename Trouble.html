@@ -28,9 +28,9 @@ personalities. They travel in groups called herds.</p>
 <p>Alpaca wool is light, warm, and water-resistant. It's sheared every year to make cozy clothing.</p>    <!--there weren't any p tags around the text, which caused the spacing to look wrong because the browser/code didn't treat it as a paragraph -->
 <div class="wool-box">
 <p>This box demonstrates <strong>absolute positioning</strong>.</p>
- <!-- removed useless p tag-->
+ <!-- there was an extra p tag with no writing or end tag, this caused the layout to be disorganized -->
 <div class="wool-detail">
-<p>I'm a smaller box positioned inside the larger one!</p> <!-- added starting p tag -->
+<p>I'm a smaller box positioned inside the larger one!</p> <!-- added starting p tag. this paragraph didnt have a starting p tag. this caused the text to be outside the paragraph creating a formatting error. -->
 </div>
 </div>
 
@@ -43,9 +43,9 @@ leader that helps keep order in the group.</p>
 <div id="fun" class="section dark">
 <h2>Fun Facts</h2>
 <ul>
-<li>Alpacas can live up to 20 years.</li> <!-- added the ending li tag-->
+<li>Alpacas can live up to 20 years.</li> <!-- added the ending li tag. This list tag was missing a closing "</li>". This caused list to appear broken or formatted incorrectly because the broswer couldnt tell when the li tag ended. -->
 <li>They rarely spit at people — only other alpacas!</li>
-<li>Each alpaca has a unique “hum” sound.</li>  <!-- deleted the extra ending li tag -->
+<li>Each alpaca has a unique “hum” sound.</li>  <!-- There was an extra </li> at the end. This caused a blank bullet point because the browser tried to close a list item that didn’t exist. -->
 </ul>
 </div>
 <div id="footer">
