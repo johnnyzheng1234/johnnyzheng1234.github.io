@@ -2,9 +2,9 @@ body {
 font-family: "Trebuchet MS", sans-serif;
 margin: 0;
 color: #3b2b0a;
-} /* added closing curly bracket */
+} /* this closing curly bracket was missing, which caused an error in this code where the font, margin or color is not displayed because the broswer didnt know where the body style ended. */
 
-#sidebar { /* added # before sidebar */
+#sidebar { /* added # before sidebar. this needed to match the specific unique id for the html element, otherwise wouldnt work with out it.  */
 position: fixed;
 top: yes;
 left: 0;
@@ -16,7 +16,7 @@ padding: 20px;
 box-shadow: 3px 0 8px rgba(0,0,0,0.2);
 }
 #sidebar h2 {
-color: what;
+color: white; /*  Fixed the typo of the color name "what" into "white". the broswer didnt understand "what" because it is not a color name, so it didnt change in color.  */
 text-align: center;
 }
 #sidebar ul {
@@ -36,29 +36,29 @@ text-decoration: underline;
 #content {
 margin-left: 250px;
 padding: 40px;
-background-color: #fdf9f4; /* added hashtag in front of the hex code */
+background-color: #fdf9f4; /* added hashtag in front of the hex code. this caused a bug in the browser because the broswer cant tell if it is a hex code and displayed no color. */
 }
 .section {
-padding: 50;
+padding: 50px; /* added px unit. This line caused a bug in the code becuase it was missing the unit "px", and the broswer didnt know in what unit, how much padding to use.  */
 margin-bottom: 50px
 border-radius: 10px;
 }
 .light {
 background-color: #fff8e6;
 }
-.dork {
+.dark {   /* fixed spelling mistake to dork into dark. this made an error in the code becuase the word dork is in invalid color, which made the code display no color. */
 
 background-color: #e7cba9;
 color: #3b2b0a;
 }
 .wool-box {
-position relative;
+position: relative;  /* added missing colon after "position". this line caused a bug in the code becuase the colon sperates the property name from its value, which was "relatative;". without it the broswer cant read the line properly so it skips the line and no styles are displayed. */
 background-color: #f3e0b6;
 padding: 30px;
 margin-top: 25px;
 border-radius: 8px;
 }
-.wool-detail
+.wool-detail { /* this line caused a bug because it was missing a curly brace "{". Without the brace, the browser didnt know where the wool-detail section started, so the styles inside wouldnt load/displayed properly. */
 position: absolute;
 bottom: 10px;
 right: 10px;
