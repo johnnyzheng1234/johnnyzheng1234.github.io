@@ -1,1 +1,17 @@
+.header-container {
+  height: 250px;       
+  width: 100%;
 
+  display: flex;
+  justify-content: center;   
+  align-items: center;    
+
+  padding-top: 80px;  
+}
+
+
+.logo {
+  width: 260px;
+  height: auto;
+  margin: center;
+}
