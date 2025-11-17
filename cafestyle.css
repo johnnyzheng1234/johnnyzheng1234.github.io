@@ -10,7 +10,6 @@ ul {
   width: 100%;
 }
 
-/* end of nav bar design*/
 
 ul li {
   float: left;
@@ -35,7 +34,7 @@ ul li a.active {
   color: black;
 }
 
-
+/* end of nav bar design*/
 
 .header-container {
   height: 250px;       
