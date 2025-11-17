@@ -9,29 +9,19 @@
 }
 
 
-
-
-
-
-
 .logo {
   width: 260px;
   height: auto;
   margin: auto;
 }
 
-
-
-
-
-      body{
+body{
         margin:0;
         padding:0;
         font-family: 'Helvetica Neue', sans-serif;
         
       }
-
-      ul{
+ul{
         list-style-type: none;
         margin:0;
         padding:0;
@@ -42,10 +32,10 @@
         z-index: 1000;
         width:100%;
       }
-      ul li{
+ul, li{
         float: left;
       }
-      ul li a{
+ul, li, a{
         display: block;
         color: black;
         text-align: center;
@@ -53,19 +43,16 @@
         text-decoration: none;
       }
 
-      ul li a:hover {
+ul, li, a:hover {
         border-bottom: 2px solid black;
         font-size: larger;
         text-decoration: dashed;
         color: black;
       }
-      ul li a.active{
+ul, li a.active{
         border-bottom: 2px solid black;
         color: black; 
       }
-
-
-
 
 h2 {
   font-family: "Ibarra Real Nova", serif;
