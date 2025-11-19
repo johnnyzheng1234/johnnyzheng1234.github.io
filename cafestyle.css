@@ -1,3 +1,4 @@
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -66,8 +67,13 @@ p {
     font-family: "Ibarra Real Nova", serif;
   }
 
+h4 {
+    font-family: "Ibarra Real Nova", serif;
+  }
+
 .more-space {
   margin-top: 120px;
+/*   margin-left: 250px; */
 
 }
 
@@ -78,11 +84,12 @@ p {
 }
 
 .pos_cen {
-  position: relative; /* FIXES THE OVERLAP */
+  position: relative; /* FIXES OVERLAP */
   width: 80%;
   margin: 120px auto;
   margin-right: 120px;
 }
+
 
 .another-paragraph {
   top-padding: 120px;
@@ -99,10 +106,10 @@ p {
   margin-top: 130px;   /* adds space above */
   margin-bottom: 20px; /* adds space below */
   font-size: 42px;     
-  font-weight: 600;
+  font-weight: 600; /* boldd */
 }
 
-/* try our new menu 2 starts here */
+
 .less-space {
   margin-top: 40px;
  margin-left: 250px; /* i dont know why it doesnt work */
@@ -115,9 +122,5 @@ p {
   width: 94%;
 
 }
-
-/* try our new menu 2 ends here */
-
-
 
 
