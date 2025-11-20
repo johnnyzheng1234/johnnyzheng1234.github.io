@@ -1,4 +1,4 @@
-
+/*   THIS IS FOR NAV BAR */
 ul {
   list-style-type: none;
   margin: 0;
@@ -47,6 +47,7 @@ ul li a.active {
   padding-top: 80px;  
 }
 
+/*   THIS IS FOR LOGO FOR METROPLIS CAFE */
 
 .logo {
   width: 260px;
@@ -54,7 +55,7 @@ ul li a.active {
   margin: auto;
 }
 
-
+/*   THIS IS FOR THE FONTS FOR EVERYTHING */
 h2 {
   font-family: "Ibarra Real Nova", serif;
 }
@@ -70,19 +71,19 @@ p {
 h4 {
     font-family: "Ibarra Real Nova", serif;
   }
-
+/*   THIS IS metroplis cafe and metroplis mercatile image and description FOR MORE MARGIN SPACE */
 .more-space {
   margin-top: 120px;
-/*   margin-left: 250px; */
+
 
 }
-
-/* image coffee thing start */
+/* ABOUT OUR COFFEE STARTS HERE */
+/* ABOUT OUR COFFEE IMAGE (HELPS MAKE IT GO LEFT) */
 .img_deg{
   float: right;
  
 }
-
+/* HELPS POSISTION THE TEXT AND IMAGE */
 .pos_cen {
   position: relative; /* FIXES OVERLAP */
   width: 80%;
@@ -90,7 +91,7 @@ h4 {
   margin-right: 120px;
 }
 
-
+/* HELPS THE PARAGRPAH FORMATTING */
 .another-paragraph {
   top-padding: 120px;
   font-size: 25px;
@@ -98,8 +99,8 @@ h4 {
 
 }
 
-/* try our new meny starts here */
-
+/* try our new menU starts here */
+/* try our new menU HEADING starts here */
 .try-menu-title h1 {
   font-family: "Ibarra Real Nova", serif;
   text-align: center;
@@ -114,14 +115,15 @@ h4 {
   margin-top: 40px;
 
 }
-
+/* HELPS THE MATCHA AND SANDWICH PARAGRAPH FORMATTING */
 .another-paragraph2 {
   top-padding: 120px;
   font-size: 20px;
   width: 94%;
 
 }
-
+/* EXPLORE OUR ONLINE MERCANTILE STORE STARTS HERE */
+/* THIS IS FOR THE HEADING FORMATTING */
 .mercantile-store h1 {
   font-family: "Ibarra Real Nova", serif;
   text-align: center;
@@ -130,7 +132,7 @@ h4 {
   font-size: 42px;     
   font-weight: 600; /* boldd */
 }
-
+/* THIS IS FOR THE PARAGRAPH FORMATTING */
 .mercantile-store p {
   font-family: "Ibarra Real Nova", serif;
   text-align: center;
@@ -140,7 +142,7 @@ h4 {
   
 }
 
-/* button starts here */
+/* this is for the button  */
 .mercantile-button {
   font-family: 'Ibarra Real Nova', serif;
   display: inline-block;
@@ -156,6 +158,7 @@ h4 {
 
 
 /* woman clothing starts here  WHOLE NEW PAGE!!*/
+/* THIS IS FOR ALL THE HEADING FOR THE SECOND PAGE  */
 .woman-title {
   text-align: center;
   font-family: "Ibarra Real Nova", serif;
